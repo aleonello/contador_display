@@ -72,7 +72,7 @@ void main()
    int iCiclo=0;
    int16 iContador=0;
    int1 bEntr=0,bRele=0;
-   delay_ms(1000); // início (correção para compilação)
+   delay_ms(1000); // inÃ­cio (correÃ§Ã£o para compilaÃ§Ã£o)
    while(TRUE)
 	{
       if(ENTR1 && !ENTR2 && !bEntr) bEntr=1;
